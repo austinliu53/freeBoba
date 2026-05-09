@@ -1,0 +1,12 @@
+img {
+    width: auto;
+    image-orientation: flip;
+}   
+
+body {
+    text-align: center;
+    font-family: "Helvetica";
+    background: bisque;
+    
+}
+
