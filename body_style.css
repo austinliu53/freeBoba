@@ -10,3 +10,16 @@ body {
     
 }
 
+@keyframes colorCycle {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+/* 2. Apply it to your image */
+.changing-image {
+  animation: colorCycle 3s linear infinite;
+}
